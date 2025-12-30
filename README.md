@@ -22,7 +22,7 @@ ELT Architecture | Azure Databricks | ADLS Gen2 | Delta Lake | ADF | Power BI
 
 •	File-based incremental ingestion using watermark control table
 
-•	Bronze (append), Silver (merge), Gold (append / overwrite) ELT design
+•	Bronze (append), Silver (merge), Gold (merge / overwrite) ELT design
 
 •	Delta Lake for ACID transactions and schema enforcement
 
