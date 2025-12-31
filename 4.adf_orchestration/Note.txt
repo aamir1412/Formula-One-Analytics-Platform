@@ -1,0 +1,4 @@
+Two new notebooks were added to analyze long-term driver and team performance trends over the past 75 years. The outputs of these notebooks are used as source datasets for the Power BI reports. These notebooks are exploratory and analytical in nature, are not part of the production pipeline, and run successfully within the Databricks workspace.
+
+6.drivers_trend
+8.teams_trend
