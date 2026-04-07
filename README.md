@@ -1,32 +1,34 @@
-# Formula-One-Analytics-Platform
+### Formula-One-Analytics-Platform
 ELT Architecture | Azure Databricks | ADLS Gen2 | Delta Lake | ADF | Power BI
 
+---
+## Tech Stack 
 
---- Tech Stack --- 
+* **`Storage:`** Azure Data Lake Storage Gen2 (ADLSg2)
 
-•	Storage: Azure Data Lake Storage Gen2 (ADLSg2)
+* **`Processing:`** Azure Databricks (PySpark, Spark SQL)
 
-•	Processing: Azure Databricks (PySpark, Spark SQL)
+* **`Data Lake Format:`** Delta Lake
 
-•	Data Lake Format: Delta Lake
+* **`Orchestration:`**	Azure Data Factory (ADF)
 
-•	Orchestration: Azure Data Factory (ADF)
+* **`Reporting:`** Power BI
 
-•	Analytics & Reporting: Power BI
+* **`Source Data:`** File-based CSV / JSON (Ergast system)
 
-•	Source Data: File-based CSV / JSON (Ergast system)
+---
 
-
-
---- Key Engineering Features ---
+## Key Engineering Features 
 
 •	File-based incremental ingestion using watermark control table
 
-•	Bronze (append), Silver (merge), Gold (merge / overwrite) ELT design
+•	Bronze (append) -> Silver (merge) -> Gold (merge / overwrite) ELT design
 
 •	Delta Lake for ACID transactions and schema enforcement
 
 •	Idempotent pipelines with safe re-runs
+
+• Spark-optimized: Partition pruning, optimizeWrite, autoCompact and column mapping
 
 •	End-to-end orchestration using Azure Data Factory
 
