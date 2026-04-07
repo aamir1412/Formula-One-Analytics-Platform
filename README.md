@@ -1,8 +1,8 @@
-### Formula-One-Analytics-Platform
+## Formula-One-Analytics-Platform
 ELT Architecture | Azure Databricks | ADLS Gen2 | Delta Lake | ADF | Power BI
 
 ---
-## Tech Stack 
+### Tech Stack 
 
 * **`Storage:`** Azure Data Lake Storage Gen2 (ADLSg2)
 
@@ -18,7 +18,7 @@ ELT Architecture | Azure Databricks | ADLS Gen2 | Delta Lake | ADF | Power BI
 
 ---
 
-## Key Engineering Features 
+### Key Engineering Features 
 
 •	File-based incremental ingestion using watermark control table
 
